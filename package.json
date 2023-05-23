@@ -1,0 +1,24 @@
+{
+  "homepage": "http://Bilalzaiter.github.io/nodejs-geo-weather-app",
+  "name": "lec-5-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.22",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
